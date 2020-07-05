@@ -1,0 +1,267 @@
+p {
+    margin: 0;   
+}
+
+p, h1, h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.txtl {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.txtm {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    height: 70px;
+}
+
+.header-in {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    padding: 15px 50px;
+    z-index: 10;
+}
+
+.header-in p {
+    margin: 0;
+    display: inline-block;
+}
+
+header img {
+    vertical-align: bottom;
+}
+
+.btn {
+    width: 318px;
+    height: 44px;
+    border: 1px solid #D86C67;
+    background-color: #D86C67;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    margin-right: 70px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 100%;
+    /* width: 100%; */
+    padding-top: 10px;
+}
+
+.btn:hover {
+    background-color: #d84940;
+}
+
+.divider {
+    height: 1000px;
+    background-color: lightblue;
+}
+
+/*=============
+isaratop
+ ==============*/
+
+.isaratop {
+    background-image: url(/home.jpg);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+}
+
+.isaratop h1 {
+    padding-top: 80px;
+    line-height: 50px;
+}
+
+.isaratop p {
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+ /*=============
+ask
+ ==============*/
+
+.ask {
+    background-color: #EBB94C;
+    height: 600px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.ask .txtm {
+    padding-top: 40px;
+}
+
+.ask-point {
+    background-color: #F9F2F4;
+    border-radius: 3px;
+    width: 420px;
+    margin: 0 auto;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.btn2 {
+    width: 80%;
+    height: 104px;
+    border: 1px solid #D86C67;
+    background-color: #D86C67;
+    border-radius: 50px;
+    text-align: center;
+    /* display: inline-block; */
+    /* float: right; */
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    font-size: 28px;
+    height: 100%;
+    /* width: 100%; */
+    line-height: 104px;
+    
+}
+
+.btn2:hover {
+    background-color: #d84940;
+}
+
+.ask h2 {
+    font-size: 21px;
+    margin-top: 30px;
+}
+
+.sns {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+ /*=============
+freedom
+ ==============*/
+
+ .freedom {
+    background-image: url(../introbottom.jpg);
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+
+.txtbox {
+    width: 860px;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+    position: relative;
+    z-index: 9;
+}
+
+.txtbox::before, .txtbox::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.txtbox::before {
+    border-top: 4px solid #EAB857;
+    border-left: 4px solid #EAB857;
+    top: 0;
+    left: 0;
+}
+
+.txtbox::after {
+    border-bottom: 4px solid #EAB857;
+    border-right: 4px solid #EAB857;
+    bottom: 0;
+    right: 0;
+}
+.txtbox .txtl {
+    padding: 30px 0 30px 0;
+}
+
+ .underline {
+    background: linear-gradient(transparent 70%, #EAB857 50%);
+    font-weight: 600;
+}
+
+.about-btn {
+    color: #fff;
+    background-color: #EBB94C;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.about-btn p {
+    line-height: 80px;
+}
+ /*=============
+about
+ ==============*/
+
+.about {
+    background-color: #FDF5E0;
+    padding-top: 40px;
+    height: 570px;
+}
+
+.about .txtm {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.about-box {
+    margin: 30px;
+    padding: 20px;
+    padding-bottom: 0;
+    border: 2px solid #EBB94C;
+    border-radius: 3px;
+    background-color: #fff;
+    height: 230px;
+}
+
+.picture-box {
+    text-align: center;
+    width: 155px;
+    height: 135px;
+}
+
+.picture-box p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+ /*=============
+
+ ==============*/
